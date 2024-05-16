@@ -51,7 +51,7 @@
     <h2 > About <span>Us</span> </h2>    
     <div class="about-text">
         <h3> Priyanshu Mittal</h3>
-        <p> Hi...My name is Priyanshu Mittal.I have done my schooling from Punjab. I am currently studying in Chitkara University,Rajpura.Iam pursuing my B.Tech Degree (Ist year). I have learnt Front End Engineering to make this website.I am good at CSS styling ,background graphics and animations.</p> 
+        <p> Hi...My name is Priyanshu Mittal.I have done my schooling from Mandi Gobindgarh. I am currently studying in Chitkara University,Rajpura.Iam pursuing my B.Tech Degree (Ist year). I have learnt Front End Engineering to make this website.I am good at CSS styling ,background graphics and animations.</p> 
     </div>
         <div class="about-img">
         <img  src="priyanshu..jpg">
