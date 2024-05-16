@@ -1,0 +1,207 @@
+
+body 
+{
+    padding: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(day.jpg);
+    transition: background-color 0.5s ease;
+}
+.header
+{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100%;
+    padding:20px 10%;
+    background:url(cal45.jpeg);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:100;
+}
+
+.navbar a
+{
+    display: inline-block;
+    font-size: 25px;
+    color:cyan;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    animation:slideTop .5s ease forwards;
+    animation-delay:calc(.2s * var(--i));
+}
+.navbar a:hover{
+    color:wheat;
+    background:teal;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+
+
+.container 
+{  
+    margin: 200px;
+    margin-left: 1.8em;
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    background: #6e6e6e;
+    box-shadow: 13px 13px 20px #C8A2C8,
+              -13px -13px 20px #C8A2C8; 
+}
+
+
+
+.btns button 
+{
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    border:black;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    background: linear-gradient(black,#808080);
+    box-shadow: 5px 5px 8px #000000,
+               -5px -5px 8px #808080;
+}
+
+.btns button:hover 
+{
+    box-shadow:  inset 5px 5px 8px rgba(16, 16, 16, .1),
+                 inset -5px -5px 8px #fff;
+    background: #fff;
+}
+
+.display #screen 
+{
+    margin-bottom: .5em;
+    width: 480px;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: black;
+    text-align: right;
+    padding-right: .5em;
+    background:linear-gradient(black,grey);
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+}
+
+#eval 
+{
+    background:linear-gradient(#00ace6,aqua);
+    color:#fff;
+  
+}
+
+#eval:hover 
+{
+    box-shadow: inset 5px 5px 8px #00ace6,
+                inset -5px -5px 8px #c000e6;
+}
+
+#ac 
+{
+    background: linear-gradient(#33cc33,rgb(196, 216, 180));
+    color: #fff;
+}
+
+#ac:hover 
+{
+    box-shadow: inset 5px 5px 8px #2eb82e,
+                inset -5px -5px 8px #ccc933;
+}
+
+#ce 
+{
+    background: linear-gradient(#ff3399,pink);
+    color: #fff;
+}
+
+#ce:hover 
+{
+      box-shadow: inset 5px 5px 8px #5100e6,
+                  inset -5px -5px 8px #ff3399;
+}
+ #bextra
+{
+    background: linear-gradient(#a9a9a9,black);
+    color: #fff;
+}
+#bextra1
+{
+    background: linear-gradient(rgb(0, 0, 0),rgb(139, 84, 138));
+    color : #fff;
+}
+#bextra2
+{
+    background: linear-gradient(rgb(74, 74, 8),white);
+    color: #fff;
+}
+#bextra3
+{
+    
+    background: linear-gradient(rgb(120, 88, 194),rgb(0, 0, 0));
+    color: #fff;
+}
+
+#cb
+{
+    margin-left: 6.1em;
+
+
+}
